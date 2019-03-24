@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 10px;
 }
@@ -142,9 +143,123 @@ body {
   background-color: #ff3a3a;
   border: none;
 }
+.modal_img {
+  margin-left: 3.4rem;
+}
 .modal_img_logo {
   margin-top: 15.2rem;
-  margin-left: 3.4rem;
+}
+.modal_img_header {
+  font-size: 3rem;
+  line-height: 1rem;
+  color: #009cc7;
+  text-transform: uppercase;
+}
+.modal_img_header p:first-child {
+  font-weight: 700;
+}
+.modal_img_star {
+  position: relative;
+  margin-top: -1.5rem;
+}
+.modal_img_rhombus_1, .modal_img_rhombus_2, .modal_img_rhombus_4, .modal_img_rhombus_5 {
+  text-align: center;
+  width: 18.2rem;
+  height: 18.2rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #feffff;
+  text-transform: uppercase;
+  background: url(Прямоугольник_5_копия_5.png);
+}
+.modal_img_rhombus_1 span:first-child, .modal_img_rhombus_2 span:first-child, .modal_img_rhombus_4 span:first-child, .modal_img_rhombus_5 span:first-child {
+  display: block;
+}
+.modal_img_rhombus_1 {
+  position: absolute;
+  top: -3.9rem;
+  left: 26.1rem;
+  padding-top: 6rem;
+}
+.modal_img_rhombus_2 {
+  position: absolute;
+  top: 5.3rem;
+  left: 35.3rem;
+  padding-top: 8rem;
+}
+.modal_img_rhombus_3 {
+  position: absolute;
+  top: 14.7rem;
+  left: 41.6rem;
+  width: 24.3rem;
+  height: 24.3rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #feffff;
+  text-transform: uppercase;
+  background: url(Прямоугольник_5_копия_4.png);
+  padding-top: 11rem;
+}
+.modal_img_rhombus_3 span:first-child {
+  display: block;
+}
+.modal_img_rhombus_4 {
+  position: absolute;
+  right: 35.4rem;
+  top: 5.2rem;
+  padding-top: 8rem;
+}
+.modal_img_rhombus_5 {
+  position: absolute;
+  bottom: -1.7rem;
+  right: 26rem;
+  padding-top: 7.5rem;
+}
+
+.windows {
+  text-align: center;
+  margin: 7rem auto 0 auto;
+}
+.windows h2 {
+  font-size: 3.2rem;
+  margin-bottom: 8.1rem;
+  text-transform: uppercase;
+}
+.windows img {
+  display: block;
+}
+.windows_content {
+  margin-top: 3rem;
+  text-align: left;
+}
+.windows_content span:first-of-type {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.19px;
+}
+.windows_content h3 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin: 1.2rem 0;
+}
+.windows_content span:last-of-type {
+  font-size: 1.9rem;
+  letter-spacing: 0.19px;
+  margin-left: 2rem;
+}
+
+.block_1 {
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+
+.block_2 {
+  margin-left: 4rem;
+}
+
+.block_3 {
+  margin-left: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
