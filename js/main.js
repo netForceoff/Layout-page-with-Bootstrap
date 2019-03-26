@@ -1,7 +1,7 @@
-$('.direction').slick({
+$('.directions-blocks').slick({
     arrows: false,
     dots: true,
-    slidesToShow: 1,
+    slidesToShow: 2,
     responsive: [
         {
             breakpoint: 768,
@@ -11,9 +11,16 @@ $('.direction').slick({
             }
         },
         {
-            breakpoint: 1200,
+            breakpoint: 991,
             settings: {
                 slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
                 slidesToScroll: 1
             }
         }
@@ -21,10 +28,10 @@ $('.direction').slick({
     ]
 });
 
-$('.direction_2').slick({
+$('.directions-blocks_2').slick({
     arrows: false,
     dots: true,
-    slidesToShow: 1,
+    slidesToShow: 3,
     responsive: [
         {
             breakpoint: 768,
@@ -36,7 +43,7 @@ $('.direction_2').slick({
         {
             breakpoint: 1200,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 3,
                 slidesToScroll: 1
             }
         }
