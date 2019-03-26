@@ -5,6 +5,7 @@ html {
 
 body {
   font-family: "DIN 2014";
+  text-align: center;
 }
 
 .top-nav_logo {
@@ -461,6 +462,164 @@ body {
 }
 .slider_2_text_3 {
   margin-left: 14rem;
+}
+
+.grid-photos {
+  text-align: center;
+}
+.grid-photos_background {
+  background: url(wp.png);
+  max-width: 114rem;
+  height: 139.5rem;
+}
+.grid-photos_text {
+  padding-top: 1.9rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.68px;
+}
+.grid-photos_text h2 {
+  position: relative;
+}
+.grid-photos_text h2::before {
+  position: absolute;
+  top: 170%;
+  left: 25rem;
+  display: block;
+  content: "";
+  width: 60rem;
+  height: 0.5rem;
+  margin-top: -1.5rem;
+  margin-right: 1rem;
+  background: #0083BD;
+}
+.grid-photos_photos {
+  margin: 7.7rem auto 0 auto;
+  max-width: 71.8rem;
+}
+.grid-photos_photos img {
+  margin-bottom: 0.5rem;
+}
+
+.comments {
+  text-align: center;
+}
+.comments_block {
+  margin-top: 7.1rem;
+  margin-bottom: 10.8rem;
+}
+.comments_block h2 {
+  font-size: 1.4rem;
+  margin-left: 19rem;
+  text-align: left;
+}
+.comments_block h2::before {
+  top: 230%;
+  left: -5rem;
+  max-width: 35rem;
+  height: 0.4rem;
+}
+.comments_block p {
+  max-width: 69.1rem;
+  margin: 4.1rem auto 0 auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.35px;
+}
+.comments_personal_background {
+  background: url(wp2.png);
+  max-width: 114rem;
+  height: 81.5rem;
+}
+.comments_personal_text_header {
+  padding-top: 2rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.68px;
+}
+.comments_personal_modal_form {
+  max-width: 34.5rem;
+  margin: 2rem auto 0 auto;
+  padding: 2.5rem;
+  height: 27.5rem;
+  box-shadow: 4px 6px 8px rgba(54, 54, 54, 0.35), inset -2px -2px 4px rgba(54, 54, 54, 0.6), inset 2px 3px 4px rgba(255, 255, 255, 0.4);
+  border-radius: 15px;
+  background-color: #0085be;
+}
+.comments_personal_modal_form input, .comments_personal_modal_form textarea {
+  width: 29.5rem;
+  padding-left: 1rem;
+  box-shadow: inset 0 0 4px rgba(54, 54, 54, 0.5);
+  border-radius: 10px;
+  border: none;
+  background-color: #f3f3f3;
+}
+.comments_personal_modal_form input {
+  height: 4rem;
+  margin-bottom: 0.5rem;
+}
+.comments_personal_modal_form textarea {
+  height: 12.5rem;
+  resize: none;
+}
+.comments_personal_modal_form button {
+  width: 21.5rem;
+  height: 4.2rem;
+  margin-top: 1rem;
+  border: none;
+  box-shadow: inset -2px -2px 4px rgba(54, 54, 54, 0.6), inset 2px 3px 4px rgba(255, 255, 255, 0.4);
+  border-radius: 19px;
+  background-color: #ff3a3a;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.comments_personal_goods {
+  max-width: 75.6rem;
+  margin: 8.1rem auto 0 auto;
+}
+.comments_personal_goods p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.53px;
+}
+.comments_personal_goods_text_1 {
+  margin-left: 1rem;
+}
+.comments_personal_goods_text_2 {
+  margin-left: 2.5rem;
+}
+.comments_personal_goods_text_3 {
+  margin-left: 2rem;
+}
+.comments_personal_goods_text_4 {
+  margin-left: 5.5rem;
+}
+
+.customers-blocks {
+  padding-left: 7rem;
+}
+.customers-block_1 {
+  margin-top: 9rem;
+}
+.customers-block_1 img {
+  margin-right: 5.6rem;
+  margin-bottom: 3rem;
+}
+.customers-block_2 {
+  margin-bottom: 7rem;
+}
+.customers-block_2 img {
+  margin-right: 8rem;
+}
+
+.charters_background {
+  background: url(wp3.png);
+  max-width: 114rem;
+  height: 118.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
