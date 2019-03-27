@@ -41,6 +41,13 @@ $('.directions-blocks_2').slick({
             }
         },
         {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
             breakpoint: 1200,
             settings: {
                 slidesToShow: 3,
@@ -72,4 +79,10 @@ $('.comments_blocks').slick({
         }
 
     ]
+});
+
+$(document).ready(function() {
+    $( ".icon-menu" ).click(function(){ 
+     $( ".top-nav_menu_mobile" ).slideToggle(); 
+    });
 });
